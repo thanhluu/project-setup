@@ -5,10 +5,10 @@
   "homepage": "http://www.example.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thanhluu/project-setup.git"
+    "url": "git://github.com/yoarts/project-setup.git"
   },
   "bugs": {
-    "url": "https://github.com/thanhluu/project-setup/issues"
+    "url": "https://github.com/yoarts/project-setup/issues"
   },
   "licenses": [
     {
@@ -16,9 +16,6 @@
       "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
     }
   ],
-  "scripts": {
-    "postinstall": "bower install && grunt dev && git submodule init && git submodule update"
-  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -34,7 +31,7 @@
     "grunt-contrib-uglify": "~0.7.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-git-deploy": "^0.1.1",
-    "load-grunt-tasks": "~3.0.0",
+    "load-grunt-tasks": "~3.1.0",
     "time-grunt": "~1.0.0"
   }
 }
